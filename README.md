@@ -28,6 +28,7 @@
 
 
 <h3>TODO:</h3>
+<p>-Calculate runs after each ball</p>
 <p>-CSV Database for all relevant data</p>
 <p>-Relations between relevant data and runs visualized</p>
 <p>-Filter data for first 6 overs. (i.e just before 6.1)</p>
