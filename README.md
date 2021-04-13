@@ -2,7 +2,7 @@
 <h2>Model for IITM contest: Cricket Hackathon</h2>
 
 <ul list-style-type:disc>
-*****<li>match_id, Relevant</li>**
+***<li>match_id, Relevant</li>**
 <li>season,</li>
 **<li>start_date, Relevant</li>**
 **<li>venue, Relevant</li>**
@@ -15,19 +15,6 @@
 **<li>bowler, Relevant</li>**
 **<li>runs_off_bat, Relevant</li>**
 **<li>extras, Relevant</li>**
-<li><strong>match_id, Relevant</strong></li>
-<li>season,</li>
-<li><strong>start_date, Relevant</strong></li>
-<li><strong>venue, Relevant</strong></li>
-<li><strong>innings, Relevant</strong></li>
-<li><strong>ball, Relevant</strong></li>
-<li><strong>batting_team, Relevant</strong></li>
-<li><strong>bowling_team, Relevant</strong></li>
-<li><strong>striker, Relevant</strong></li>
-<li>non_striker,</li>
-<li><strong>bowler, Relevant</strong></li>
-<li><strong>runs_off_bat, Relevant</strong></li>
-<li><strong>extras, Relevant</strong></li>
 <li>wides,</li>
 <li>noballs,</li>
 <li>byes,</li>
