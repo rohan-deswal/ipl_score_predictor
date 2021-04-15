@@ -33,8 +33,9 @@ for index, row in data.iterrows():
         current_runs += row["runs_scored"]
         last_row = row
     else:
-        new_data.append([last_row["venue"], last_row["innings"], last_row["ball"], last_row["batting_team"], last_row["bowling_team"],
-                        ','.join(batsmen), ','.join(bowlers), current_runs])
+        if last_row["ball"] >= 5.6:
+            new_data.append([last_row["venue"], last_row["innings"], last_row["ball"], last_row["batting_team"], last_row["bowling_team"],
+                            ','.join(batsmen), ','.join(bowlers), current_runs])
         current_innings = row["innings"]
         current_runs = row["runs_scored"]
         batsmen = set([row["striker"]])
@@ -45,26 +46,6 @@ for index, row in data.iterrows():
 new_data.append([last_row["venue"], last_row["innings"], last_row["ball"], last_row["batting_team"], last_row["bowling_team"],
                         ','.join(batsmen), ','.join(bowlers), current_runs])
 
-#for i in range(1, len(data)):
-#    try:
-#        if data.loc[i, 'innings'] == current_innings:
-#            data.loc[i, 'runs'] += data.loc[i-1, 'runs']
-#            batsmen.add(data.loc[i, 'striker'])
-#            bowlers.add(data.loc[i, 'bowler'])
-#        else:
-#            new_data.append([data.loc[i-1, 'venue'], data.loc[i-1, 'innings'], data.loc[i-1, 'ball'],
-#                             data.loc[i-1, 'batting_team'], data.loc[i-1, 'bowling_team'], ','.join(batsmen), ','.join(bowlers),
-#                             data.loc[i-1, 'runs']])
-#            batsmen = set([data.loc[i, 'striker']])
-#            bowlers = set([data.loc[i, 'bowler']])
-#            current_innings = data.loc[i, 'innings']
-#            if current_innings == 1:
-#                print(f"New Match {data.loc[i, 'match_id']}")
-#    except Exception as e:
-#        print("Error occured:", e)
-
-
-#data.to_csv("all_matches_relevant.csv", index = False)
 columns = ["venue", "innings", "ball", "batting_team", "bowling_team", "batsmen", "bowlers", "runs"]
 new_data = pd.DataFrame(new_data, columns=columns)
 
