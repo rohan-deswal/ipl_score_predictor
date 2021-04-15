@@ -2,9 +2,9 @@
 <h2>Model for IITM contest: Cricket Hackathon</h2>
 
 <ul list-style-type:disc>
-<strong><li>match_id, Relevant</li></strong>
+<li>match_id</li>
 <li>season,</li>
-<strong><li>start_date, Relevant</li></strong>
+<li>start_date</li>
 <strong><li>venue, Relevant</li></strong>
 <strong><li>innings, Relevant</li></strong>
 <strong><li>ball, Relevant</li></strong>
@@ -26,9 +26,14 @@
 <li>other_player_dismissed</li>
 </ul>
 
+<p>The data is formatted to fit the input_test_data format provided <br>
+   by IITM, displayed in input_test_data.csv<br>
+</p>
+<h4>Format:</h4>
+<p>venue, innings, ball, batting_team, bowling_team, batsmen, bowlers<br></p>
 
 <h3>TODO:</h3>
-<p>-Calculate runs after each ball</p>
-<p>-CSV Database for all relevant data</p>
+<p>-Calculate runs after each ball - <strong>Done</strong></p>
+<p>-CSV Database for all relevant data - <strong>Done</strong></p>
+<p>-Filter data for first 6 overs. (i.e just before 6.1) - <strong>Done</strong></p>
 <p>-Relations between relevant data and runs visualized</p>
-<p>-Filter data for first 6 overs. (i.e just before 6.1)</p>
