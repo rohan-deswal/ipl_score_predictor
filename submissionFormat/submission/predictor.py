@@ -3,9 +3,9 @@ import pandas as pd
 
 ### Custom definitions and classes if any ###
 
-venue_lookup = pd.read_csv("../venue.csv")
-batsmen_lookup = pd.read_csv("../batsmen.csv")
-bowlers_lookup = pd.read_csv("../bowlers.csv")
+venue_lookup = pd.read_csv("venue.csv")
+batsmen_lookup = pd.read_csv("batsmen.csv")
+bowlers_lookup = pd.read_csv("bowlers.csv")
 
 venue_lookup = venue_lookup.set_index("venue")["venue_mean_runs"].to_dict()
 batsmen_lookup = batsmen_lookup.set_index("batsmen")["batsmen_mean_runs"].to_dict()
@@ -16,7 +16,7 @@ bowler_mean = sum(bowlers_lookup.values())/len(bowlers_lookup)
 
 venue_mean = sum(venue_lookup.values())/len(venue_lookup)
 
-dnn_model = tf.keras.models.load_model('../dnn_model')
+dnn_model = tf.keras.models.load_model('dnn_model')
 
 def string_match(a, b):
 	if len(a)>len(b):
@@ -103,4 +103,4 @@ def predictRuns(testInput):
     
     prediction = dnn_model.predict(df)
     
-    return prediction[0, 0]
+    return int(prediction[0, 0])

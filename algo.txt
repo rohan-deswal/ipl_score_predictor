@@ -1,0 +1,8 @@
+1. We are using the mean score per ball as a way to denote a bowler/batsman.
+2. We are mean score of a venue to denote the venue
+3. The above numeric data is being used as parameter for the Deep Neural Network that we have implemented for the training of our Keras Sequential Regressor Model.
+4. The Model has following attributes:
+	Activation Function: ReLU
+	Optimizer: Adam
+	Learning Rate for Adam: 0.002
+	Training Epochs: 40

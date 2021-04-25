@@ -62,10 +62,10 @@ for index, row in df.iterrows():
 
 
 for i in range(len(batsmen)):
-	batsmen[i][1:] = [sum([(i+1)*score for i, score in enumerate(batsmen[i][1:])])/(len(batsmen[i][1:])*(len(batsmen[i][1:])+1)/2)]
+	batsmen[i][1:] = [sum([score for i, score in enumerate(batsmen[i][1:])])/len(batsmen[i][1:])]
 
 for i in range(len(bowlers)):
-	bowlers[i][1:] = [sum([(i+1)*score for i, score in enumerate(bowlers[i][1:])])/(len(bowlers[i][1:])*(len(bowlers[i][1:])+1)/2)]
+	bowlers[i][1:] = [sum([score for i, score in enumerate(bowlers[i][1:])])/len(bowlers[i][1:])]
 
 batsmen = pd.DataFrame(batsmen, columns = ["batsmen", "batsmen_mean_runs"])
 bowlers = pd.DataFrame(bowlers, columns = ["bowlers", "bowlers_mean_runs"])
