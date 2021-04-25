@@ -31,6 +31,6 @@ for index, row in df.iterrows():
     df.loc[index, "batsmen_mean"] = sum([batsmen_lookup.get(name, batsman_mean) for name in batsmen])/len(batsmen)
     df.loc[index, "bowlers_mean"] = sum([bowlers_lookup.get(name, bowler_mean) for name in bowlers])/len(bowlers)
 
-df = df.drop(columns = ["venue", "batsmen", "bowlers", "batting_team", "bowling_team", "Unnamed: 0"])
+df = df.drop(columns = ["venue", "batsmen", "bowlers", "batting_team", "bowling_team", "Unnamed: 0", "ball"])
 
 df.to_csv("all_matches_numeric.csv", index = False)
