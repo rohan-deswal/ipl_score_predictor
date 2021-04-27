@@ -2,7 +2,7 @@ from time import time
 
 start = time()
 
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 print(time() - start)
 
