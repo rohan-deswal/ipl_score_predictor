@@ -1,4 +1,11 @@
-import tensorflow as tf
+from time import time
+
+start = time()
+
+from tensorflow.keras.models import load_model
+
+print(time() - start)
+
 import pandas as pd
 
 ### Custom definitions and classes if any ###
@@ -16,7 +23,7 @@ bowler_mean = sum(bowlers_lookup.values())/len(bowlers_lookup)
 
 venue_mean = sum(venue_lookup.values())/len(venue_lookup)
 
-dnn_model = tf.keras.models.load_model('dnn_model')
+dnn_model = load_model('dnn_model')
 
 def string_match(a, b):
 	if len(a)>len(b):
@@ -104,3 +111,5 @@ def predictRuns(testInput):
     prediction = dnn_model.predict(df)
     
     return int(prediction[0, 0])
+
+print(predictRuns('21_inn1.csv'))
