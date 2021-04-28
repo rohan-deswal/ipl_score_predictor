@@ -2,13 +2,52 @@ from time import time
 
 start = time()
 
-from tensorflow.keras.models import load_model
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import numpy as np
+import pandas as pd
 
 print(time() - start)
 
-import pandas as pd
-
 ### Custom definitions and classes if any ###
+
+def hidden_init(layer):
+    fan_in = layer.weight.data.size()[0]
+    lim = 1. / np.sqrt(fan_in)
+    return (-lim, lim)  
+
+class Actor(nn.Module):
+    """Actor (Policy) Model."""
+
+    def __init__(self, state_size, action_size, seed, h):
+        """Initialize parameters and build model.
+        Params
+        ======
+            state_size (int): Dimension of each state
+            action_size (int): Dimension of each action
+            seed (int): Random seed
+            fc1_units (int): Number of nodes in first hidden layer
+            fc2_units (int): Number of nodes in second hidden layer
+        """
+        super(Actor, self).__init__()
+        self.seed = torch.manual_seed(seed)
+        self.fc1 = nn.Linear(state_size, h)
+        self.fc2 = nn.Linear(h, h)
+        self.fc3 = nn.Linear(h, action_size)
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        self.fc1.weight.data.uniform_(*hidden_init(self.fc1))
+        self.fc2.weight.data.uniform_(*hidden_init(self.fc2))
+        self.fc3.weight.data.uniform_(-3e-3, 3e-3)
+
+    def forward(self, state):
+        """Build an actor (policy) network that maps states -> actions."""
+        x = F.relu(self.fc1(state))
+        x = F.relu(self.fc2(x))
+
+        return self.fc3(x)
 
 venue_lookup = pd.read_csv("venue.csv")
 batsmen_lookup = pd.read_csv("batsmen.csv")
@@ -23,7 +62,13 @@ bowler_mean = sum(bowlers_lookup.values())/len(bowlers_lookup)
 
 venue_mean = sum(venue_lookup.values())/len(venue_lookup)
 
-dnn_model = load_model('dnn_model')
+dnn_model=Actor(6,1,time(),64)
+dnn_model.load_state_dict(torch.load("pytorch_model.pt"))
+
+weights = [np.array([ 1.497406 , 45.812748 ,  3.3521402,  3.5544746,  1.0940305,
+         1.2861433], dtype=np.float32),
+ np.array([0.24999326, 7.7099004 , 1.1658807 , 0.4999508 , 0.01168746,
+        0.01274876], dtype=np.float32)]
 
 def string_match(a, b):
 	if len(a)>len(b):
@@ -107,9 +152,11 @@ def predictRuns(testInput):
     df["bowlers_mean"] = sum([bowler_data_get(name) for name in bowlers])/len(bowlers)
     
     df = df.drop(columns = ["venue", "batsmen", "bowlers", "batting_team", "bowling_team"])
-    
-    prediction = dnn_model.predict(df)
-    
-    return int(prediction[0, 0])
+    df = df.to_numpy()
+    df = (df - weights[0])/(np.sqrt(weights[1]) + 0.001)
+    df = torch.from_numpy(df.astype(np.float32))
 
-print(predictRuns('21_inn1.csv'))
+    prediction = dnn_model(df)
+    
+    return int(prediction)
+print(predictRuns('../../trial/18_inn1.csv'))

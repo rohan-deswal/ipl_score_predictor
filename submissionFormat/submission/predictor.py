@@ -3,6 +3,9 @@ from time import time
 start = time()
 
 from keras.models import load_model
+from keras import backend as K
+
+K.clear_session()
 
 print(time() - start)
 
@@ -110,6 +113,5 @@ def predictRuns(testInput):
     
     prediction = dnn_model.predict(df)
     
-    return int(prediction[0, 0])
-
-print(predictRuns('21_inn1.csv'))
+    return prediction #int(prediction[0, 0])
+print(predictRuns('../22_inn2.csv'))
