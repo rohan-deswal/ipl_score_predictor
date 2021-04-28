@@ -1,15 +1,9 @@
 from time import time
-
-start = time()
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import pandas as pd
-
-print(time() - start)
-
 ### Custom definitions and classes if any ###
 
 def hidden_init(layer):
@@ -159,4 +153,3 @@ def predictRuns(testInput):
     prediction = dnn_model(df)
     
     return int(prediction)
-print(predictRuns('../../trial/18_inn1.csv'))

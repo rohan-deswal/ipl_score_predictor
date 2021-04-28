@@ -6,3 +6,6 @@
 	Optimizer: Adam
 	Learning Rate for Adam: 0.002
 	Training Epochs: 40
+5. Update: We have decided to export the weights, biases and normalization values from keras to pytorch.
+6. The decision was due to the fact that we were getting Time Limit Exceeded error.
+7. We are now using the Pytorch Sequential Model with the previous neural network's weights and biases.
