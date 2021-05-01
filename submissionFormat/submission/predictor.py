@@ -114,4 +114,5 @@ def predictRuns(testInput):
     prediction = dnn_model.predict(df)
     
     return prediction #int(prediction[0, 0])
-print(predictRuns('../22_inn2.csv'))
+print(predictRuns('24_inn1.csv'))
+print(predictRuns('24_inn2.csv'))

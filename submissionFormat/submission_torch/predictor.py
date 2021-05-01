@@ -59,10 +59,10 @@ venue_mean = sum(venue_lookup.values())/len(venue_lookup)
 dnn_model=Actor(6,1,time(),64)
 dnn_model.load_state_dict(torch.load("pytorch_model.pt"))
 
-weights = [np.array([ 1.497406 , 45.812748 ,  3.3521402,  3.5544746,  1.0940305,
-         1.2861433], dtype=np.float32),
- np.array([0.24999326, 7.7099004 , 1.1658807 , 0.4999508 , 0.01168746,
-        0.01274876], dtype=np.float32)]
+weights = [np.array([ 1.497406 , 45.812748 ,  3.3521402,  3.5544746,  1.0907632,
+         1.3004851], dtype=np.float32),
+ np.array([0.24999326, 7.7099004 , 1.1658807 , 0.4999508 , 0.01260211,
+        0.01306069], dtype=np.float32)]
 
 def string_match(a, b):
 	if len(a)>len(b):
@@ -153,3 +153,4 @@ def predictRuns(testInput):
     prediction = dnn_model(df)
     
     return int(prediction)
+print(predictRuns('24_inn1.csv'),predictRuns('24_inn2.csv'))

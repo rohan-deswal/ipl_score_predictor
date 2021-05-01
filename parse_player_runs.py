@@ -60,12 +60,14 @@ for index, row in df.iterrows():
 		current_batsmen = {}
 		current_bowlers = {}
 
+weighted_index = lambda x: x**0.5
+weighted_sum = lambda n: sum([weighted_index(x) for x in range(1, n+1)])
 
 for i in range(len(batsmen)):
-	batsmen[i][1:] = [sum([score for i, score in enumerate(batsmen[i][1:])])/len(batsmen[i][1:])]
+	batsmen[i][1:] = [sum([weighted_index(i+1)*score for i, score in enumerate(batsmen[i][1:])])/weighted_sum(len(batsmen[i][1:]))]
 
 for i in range(len(bowlers)):
-	bowlers[i][1:] = [sum([score for i, score in enumerate(bowlers[i][1:])])/len(bowlers[i][1:])]
+	bowlers[i][1:] = [sum([weighted_index(i+1)*score for i, score in enumerate(bowlers[i][1:])])/weighted_sum(len(bowlers[i][1:]))]
 
 batsmen = pd.DataFrame(batsmen, columns = ["batsmen", "batsmen_mean_runs"])
 bowlers = pd.DataFrame(bowlers, columns = ["bowlers", "bowlers_mean_runs"])

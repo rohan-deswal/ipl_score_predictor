@@ -778,8 +778,8 @@
 235	MA Chidambaram Stadium	2	5.6	Chennai Super Kings	Deccan Chargers	"SK Raina,ML Hayden,S Badrinath,MS Dhoni,JM Kemp,M Vijay"	"RP Singh,RG Sharma,PP Ojha,WPUJC Vaas"	34
 236	Eden Gardens	1	5.6	Royal Challengers Bangalore	Kolkata Knight Riders	"MK Pandey,V Kohli,SP Goswami,JH Kallis"	"AD Mathews,CK Langeveldt,M Kartik,I Sharma"	24
 237	Eden Gardens	2	5.6	Kolkata Knight Riders	Royal Challengers Bangalore	"MK Tiwary,BJ Hodge"	"A Kumble,P Kumar,DW Steyn,JH Kallis"	61
-238	Sardar Patel Stadium	1	5.6	Rajasthan Royals	Delhi Daredevils	"SA Asnodkar,NV Ojha,GC Smith,YK Pathan"	"DP Nannes,MF Maharoof,A Mishra"	47
-239	Sardar Patel Stadium	2	5.6	Delhi Daredevils	Rajasthan Royals	"TM Dilshan,AB de Villiers,V Sehwag,G Gambhir"	"MM Patel,SW Tait,AD Mascarenhas"	60
+238	Narendra Modi Stadium	1	5.6	Rajasthan Royals	Delhi Daredevils	"SA Asnodkar,NV Ojha,GC Smith,YK Pathan"	"DP Nannes,MF Maharoof,A Mishra"	47
+239	Narendra Modi Stadium	2	5.6	Delhi Daredevils	Rajasthan Royals	"TM Dilshan,AB de Villiers,V Sehwag,G Gambhir"	"MM Patel,SW Tait,AD Mascarenhas"	60
 24	Dr DY Patil Sports Academy	1	5.7	Mumbai Indians	Deccan Chargers	"ST Jayasuriya,L Ronchi,RV Uthappa,AM Rahane,SM Pollock"	"RP Singh,Shahid Afridi,DNT Zoysa,SB Bangar"	27
 240	M Chinnaswamy Stadium	1	5.6	Kings XI Punjab	Royal Challengers Bangalore	"MS Bisla,RS Bopara"	"P Kumar,DW Steyn,JH Kallis"	50
 241	M Chinnaswamy Stadium	2	5.6	Royal Challengers Bangalore	Kings XI Punjab	"MK Pandey,JH Kallis"	"YA Abdulla,IK Pathan,S Sreesanth"	61
@@ -794,8 +794,8 @@
 25	Dr DY Patil Sports Academy	2	5.7	Deccan Chargers	Mumbai Indians	"VVS Laxman,AC Gilchrist"	"ST Jayasuriya,SD Chitnis,DS Kulkarni,A Nehra,SM Pollock"	60
 250	Barabati Stadium	1	5.6	Deccan Chargers	Kings XI Punjab	"VVS Laxman,A Symonds,HH Gibbs,AC Gilchrist"	"IK Pathan,S Sreesanth,SJ Srivastava,PP Chawla"	56
 251	Barabati Stadium	2	5.6	Kings XI Punjab	Deccan Chargers	"RS Bopara,Yuvraj Singh,MS Bisla,DPMD Jayawardene,KC Sangakkara"	"RP Singh,A Symonds,WPUJC Vaas"	27
-252	Sardar Patel Stadium	1	5.6	Rajasthan Royals	Kolkata Knight Riders	"MJ Lumb,NV Ojha,FY Fazal,AA Jhunjhunwala"	"AD Mathews,SE Bond,AB Dinda,I Sharma"	56
-253	Sardar Patel Stadium	2	5.6	Kolkata Knight Riders	Rajasthan Royals	"CA Pujara,MK Tiwary,BJ Hodge"	"MM Patel,SW Tait,SK Trivedi,YK Pathan"	38
+252	Narendra Modi Stadium	1	5.6	Rajasthan Royals	Kolkata Knight Riders	"MJ Lumb,NV Ojha,FY Fazal,AA Jhunjhunwala"	"AD Mathews,SE Bond,AB Dinda,I Sharma"	56
+253	Narendra Modi Stadium	2	5.6	Kolkata Knight Riders	Rajasthan Royals	"CA Pujara,MK Tiwary,BJ Hodge"	"MM Patel,SW Tait,SK Trivedi,YK Pathan"	38
 254	Brabourne Stadium	1	5.6	Mumbai Indians	Royal Challengers Bangalore	"ST Jayasuriya,AP Tare,SR Tendulkar,SS Tiwary"	"P Kumar,R Vinay Kumar,DW Steyn,JH Kallis"	45
 255	Brabourne Stadium	2	5.6	Royal Challengers Bangalore	Mumbai Indians	"MK Pandey,JH Kallis"	"KA Pollard,Z Khan,DJ Bravo,SL Malinga"	55
 256	Barabati Stadium	1	5.6	Deccan Chargers	Delhi Daredevils	"MD Mishra,HH Gibbs,AC Gilchrist,A Symonds"	"DP Nannes,Y Nagar,A Mishra,S Ladda"	47
@@ -814,12 +814,12 @@
 268	M Chinnaswamy Stadium	1	5.6	Delhi Daredevils	Royal Challengers Bangalore	"KD Karthik,AB de Villiers,V Sehwag,DA Warner"	"P Kumar,R Vinay Kumar,DW Steyn,JH Kallis"	64
 269	M Chinnaswamy Stadium	2	5.7	Royal Challengers Bangalore	Delhi Daredevils	"MK Pandey,JH Kallis"	"PJ Sangwan,DP Nannes,UT Yadav"	46
 27	Punjab Cricket Association IS Bindra Stadium	2	5.6	Kings XI Punjab	Delhi Daredevils	"K Goel,KC Sangakkara,DPMD Jayawardene,SM Katich"	"GD McGrath,Mohammad Asif,MF Maharoof"	55
-270	Sardar Patel Stadium	1	5.6	Deccan Chargers	Rajasthan Royals	"VVS Laxman,A Symonds,HH Gibbs,AC Gilchrist"	"SW Tait,S Narwal,SK Trivedi,AA Jhunjhunwala"	55
-271	Sardar Patel Stadium	2	5.6	Rajasthan Royals	Deccan Chargers	"MJ Lumb,NV Ojha"	"RP Singh,RG Sharma,R Sharma,WPUJC Vaas"	54
+270	Narendra Modi Stadium	1	5.6	Deccan Chargers	Rajasthan Royals	"VVS Laxman,A Symonds,HH Gibbs,AC Gilchrist"	"SW Tait,S Narwal,SK Trivedi,AA Jhunjhunwala"	55
+271	Narendra Modi Stadium	2	5.6	Rajasthan Royals	Deccan Chargers	"MJ Lumb,NV Ojha"	"RP Singh,RG Sharma,R Sharma,WPUJC Vaas"	54
 272	Punjab Cricket Association IS Bindra Stadium	1	5.7	Kolkata Knight Riders	Kings XI Punjab	"CH Gayle,Mandeep Singh,MK Tiwary,SC Ganguly"	"VS Malik,IK Pathan,B Lee,SJ Srivastava"	50
 273	Punjab Cricket Association IS Bindra Stadium	2	5.6	Kings XI Punjab	Kolkata Knight Riders	"MS Bisla,Yuvraj Singh,RS Bopara,KC Sangakkara"	"CH Gayle,SE Bond,AB Dinda,AB Agarkar"	42
-274	Sardar Patel Stadium	1	5.6	Rajasthan Royals	Chennai Super Kings	"MJ Lumb,NV Ojha,FY Fazal"	"T Thushara,JA Morkel,M Muralitharan"	58
-275	Sardar Patel Stadium	2	5.6	Chennai Super Kings	Rajasthan Royals	"SK Raina,M Vijay,ML Hayden"	"SW Tait,S Narwal,YK Pathan"	58
+274	Narendra Modi Stadium	1	5.6	Rajasthan Royals	Chennai Super Kings	"MJ Lumb,NV Ojha,FY Fazal"	"T Thushara,JA Morkel,M Muralitharan"	58
+275	Narendra Modi Stadium	2	5.6	Chennai Super Kings	Rajasthan Royals	"SK Raina,M Vijay,ML Hayden"	"SW Tait,S Narwal,YK Pathan"	58
 276	Dr DY Patil Sports Academy	1	5.6	Mumbai Indians	Deccan Chargers	"SR Tendulkar,S Dhawan,DJ Bravo"	"RP Singh,KAJ Roach,PP Ojha,Jaskaran Singh"	52
 277	Dr DY Patil Sports Academy	2	5.7	Deccan Chargers	Mumbai Indians	"MD Mishra,HH Gibbs,AC Gilchrist,A Symonds"	"Harbhajan Singh,Z Khan,SL Malinga,R McLaren"	50
 278	Feroz Shah Kotla	1	5.6	Delhi Daredevils	Kolkata Knight Riders	"KD Karthik,G Gambhir,V Sehwag,DA Warner,PD Collingwood"	"CH Gayle,CK Langeveldt,I Sharma,DJ Hussey"	62
@@ -1449,8 +1449,8 @@
 84	M Chinnaswamy Stadium	2	5.6	Delhi Daredevils	Royal Challengers Bangalore	"V Sehwag,G Gambhir"	"Z Khan,P Kumar,DW Steyn,JH Kallis"	71
 840	Feroz Shah Kotla	1	5.6	Delhi Daredevils	Chennai Super Kings	"KP Pietersen,KD Karthik,M Vijay,Q de Kock"	"BW Hilfenhaus,IC Pandey,MM Sharma"	46
 841	Feroz Shah Kotla	2	5.6	Chennai Super Kings	Delhi Daredevils	"DR Smith,BB McCullum"	"Mohammed Shami,WD Parnell,S Nadeem,JD Unadkat"	49
-842	Sardar Patel Stadium	1	5.6	Rajasthan Royals	Kolkata Knight Riders	"KK Nair,AM Rahane"	"Shakib Al Hasan,R Vinay Kumar,UT Yadav,SP Narine"	50
-843	Sardar Patel Stadium	2	5.6	Kolkata Knight Riders	Rajasthan Royals	"RV Uthappa,G Gambhir"	"JP Faulkner,TG Southee,SR Watson,PV Tambe"	50
+842	Narendra Modi Stadium	1	5.6	Rajasthan Royals	Kolkata Knight Riders	"KK Nair,AM Rahane"	"Shakib Al Hasan,R Vinay Kumar,UT Yadav,SP Narine"	50
+843	Narendra Modi Stadium	2	5.6	Kolkata Knight Riders	Rajasthan Royals	"RV Uthappa,G Gambhir"	"JP Faulkner,TG Southee,SR Watson,PV Tambe"	50
 844	Wankhede Stadium	1	5.6	Mumbai Indians	Royal Challengers Bangalore	"BR Dunk,AT Rayudu,CM Gautam"	"VR Aaron,MA Starc,AB Dinda,HV Patel"	50
 845	Wankhede Stadium	2	5.6	Royal Challengers Bangalore	Mumbai Indians	"PA Patel,CH Gayle,V Kohli"	"Harbhajan Singh,JJ Bumrah,P Suyal,SL Malinga"	64
 846	Feroz Shah Kotla	1	5.6	Delhi Daredevils	Kolkata Knight Riders	"KP Pietersen,KD Karthik,M Vijay,Q de Kock"	"Shakib Al Hasan,SA Yadav,UT Yadav,JH Kallis,SP Narine"	29
@@ -1458,8 +1458,8 @@
 848	Barabati Stadium	1	5.6	Kings XI Punjab	Chennai Super Kings	"DA Miller,Mandeep Singh,V Sehwag,GJ Maxwell"	"BW Hilfenhaus,IC Pandey,MM Sharma"	38
 849	Barabati Stadium	2	5.6	Chennai Super Kings	Kings XI Punjab	"DR Smith,SK Raina,BB McCullum"	"MG Johnson,Sandeep Sharma,M Kartik"	46
 85	Eden Gardens	1	5.6	Kolkata Knight Riders	Rajasthan Royals	"SC Ganguly,Mohammad Hafeez,Salman Butt"	"MM Patel,Sohail Tanvir,SR Watson"	32
-850	Sardar Patel Stadium	1	5.6	Sunrisers Hyderabad	Rajasthan Royals	"AJ Finch,KL Rahul,S Dhawan"	"DS Kulkarni,KW Richardson,SR Watson,JP Faulkner"	50
-851	Sardar Patel Stadium	2	5.6	Rajasthan Royals	Sunrisers Hyderabad	"KK Nair,AM Rahane,SV Samson,STR Binny,SR Watson"	"KV Sharma,B Kumar,DW Steyn"	37
+850	Narendra Modi Stadium	1	5.6	Sunrisers Hyderabad	Rajasthan Royals	"AJ Finch,KL Rahul,S Dhawan"	"DS Kulkarni,KW Richardson,SR Watson,JP Faulkner"	50
+851	Narendra Modi Stadium	2	5.6	Rajasthan Royals	Sunrisers Hyderabad	"KK Nair,AM Rahane,SV Samson,STR Binny,SR Watson"	"KV Sharma,B Kumar,DW Steyn"	37
 852	M Chinnaswamy Stadium	1	5.9	Kings XI Punjab	Royal Challengers Bangalore	"Mandeep Singh,V Sehwag,GJ Maxwell"	"JA Morkel,MA Starc,VR Aaron,HV Patel"	64
 853	M Chinnaswamy Stadium	2	5.6	Royal Challengers Bangalore	Kings XI Punjab	"PA Patel,CH Gayle,S Rana,V Kohli"	"MG Johnson,Sandeep Sharma,L Balaji"	34
 854	Wankhede Stadium	1	5.6	Mumbai Indians	Chennai Super Kings	"LMP Simmons,AT Rayudu,CM Gautam"	"S Badree,IC Pandey"	42
@@ -1481,17 +1481,17 @@
 869	Rajiv Gandhi International Stadium	1	5.6	Sunrisers Hyderabad	Kings XI Punjab	"AJ Finch,S Dhawan"	"MG Johnson,Sandeep Sharma"	55
 87	Wankhede Stadium	1	5.6	Kings XI Punjab	Mumbai Indians	"JR Hopes,LA Pomersbach,SE Marsh"	"SM Pollock,VS Yeligati,A Nehra"	43
 870	Rajiv Gandhi International Stadium	2	5.6	Kings XI Punjab	Sunrisers Hyderabad	"M Vohra,V Sehwag,WP Saha"	"KV Sharma,MC Henriques,B Kumar,DW Steyn"	86
-871	Sardar Patel Stadium	1	5.6	Rajasthan Royals	Delhi Daredevils	"KK Cooper,KK Nair,AM Rahane"	"S Kaul,JP Duminy,R Shukla,S Nadeem"	52
-872	Sardar Patel Stadium	2	5.7	Delhi Daredevils	Rajasthan Royals	"MA Agarwal,KD Karthik,KP Pietersen,JP Duminy"	"DS Kulkarni,BCJ Cutting,KK Cooper,JP Faulkner"	34
+871	Narendra Modi Stadium	1	5.6	Rajasthan Royals	Delhi Daredevils	"KK Cooper,KK Nair,AM Rahane"	"S Kaul,JP Duminy,R Shukla,S Nadeem"	52
+872	Narendra Modi Stadium	2	5.7	Delhi Daredevils	Rajasthan Royals	"MA Agarwal,KD Karthik,KP Pietersen,JP Duminy"	"DS Kulkarni,BCJ Cutting,KK Cooper,JP Faulkner"	34
 873	Rajiv Gandhi International Stadium	1	5.6	Sunrisers Hyderabad	Kolkata Knight Riders	"AJ Finch,NV Ojha,S Dhawan"	"M Morkel,UT Yadav,SP Narine"	41
 874	Rajiv Gandhi International Stadium	2	5.6	Kolkata Knight Riders	Sunrisers Hyderabad	"MK Pandey,RV Uthappa,G Gambhir"	"DJG Sammy,KV Sharma,B Kumar,DW Steyn"	30
 875	JSCA International Stadium Complex	1	5.6	Chennai Super Kings	Royal Challengers Bangalore	"DR Smith,SK Raina,BB McCullum,DJ Hussey"	"M Muralitharan,MA Starc,VR Aaron,AN Ahmed"	39
 876	JSCA International Stadium Complex	2	5.6	Royal Challengers Bangalore	Chennai Super Kings	"PA Patel,CH Gayle,V Kohli"	"S Badree,R Ashwin,MM Sharma"	17
 877	Feroz Shah Kotla	1	5.7	Delhi Daredevils	Kings XI Punjab	"KP Pietersen,KD Karthik,M Vijay"	"BE Hendricks,Sandeep Sharma,AR Patel"	55
 878	Feroz Shah Kotla	2	5.7	Kings XI Punjab	Delhi Daredevils	"V Sehwag,M Vohra"	"Mohammed Shami,WD Parnell,JD Unadkat"	66
-879	Sardar Patel Stadium	1	5.7	Mumbai Indians	Rajasthan Royals	"LMP Simmons,MEK Hussey"	"DS Kulkarni,KK Cooper,Ankit Sharma,JP Faulkner"	42
+879	Narendra Modi Stadium	1	5.7	Mumbai Indians	Rajasthan Royals	"LMP Simmons,MEK Hussey"	"DS Kulkarni,KK Cooper,Ankit Sharma,JP Faulkner"	42
 88	Wankhede Stadium	2	5.6	Mumbai Indians	Kings XI Punjab	"DR Smith,ST Jayasuriya,SR Tendulkar"	"IK Pathan,S Sreesanth,VRV Singh"	68
-880	Sardar Patel Stadium	2	5.7	Rajasthan Royals	Mumbai Indians	"UBT Chand,SR Watson,KK Nair,SV Samson"	"KA Pollard,PP Ojha,JJ Bumrah,K Santokie"	47
+880	Narendra Modi Stadium	2	5.7	Rajasthan Royals	Mumbai Indians	"UBT Chand,SR Watson,KK Nair,SV Samson"	"KA Pollard,PP Ojha,JJ Bumrah,K Santokie"	47
 881	Rajiv Gandhi International Stadium	1	5.6	Royal Challengers Bangalore	Sunrisers Hyderabad	"PA Patel,CH Gayle,Yuvraj Singh,V Kohli"	"Parvez Rasool,KV Sharma,B Kumar,DW Steyn"	25
 882	Rajiv Gandhi International Stadium	2	5.6	Sunrisers Hyderabad	Royal Challengers Bangalore	"S Dhawan,DA Warner"	"M Muralitharan,MA Starc,VR Aaron,AN Ahmed"	51
 883	Eden Gardens	1	5.6	Chennai Super Kings	Kolkata Knight Riders	"DR Smith,SK Raina,BB McCullum"	"Shakib Al Hasan,SP Narine,PJ Cummins,UT Yadav"	35
@@ -1528,13 +1528,13 @@
 910	M Chinnaswamy Stadium	2	5.6	Kolkata Knight Riders	Kings XI Punjab	"MK Pandey,RV Uthappa,G Gambhir"	"P Awana,MG Johnson,L Balaji"	59
 911	Maharashtra Cricket Association Stadium	1	5.6	Kings XI Punjab	Kolkata Knight Riders	"V Sehwag,GJ Maxwell,WP Saha,GJ Bailey,M Vijay"	"AD Russell,M Morkel,UT Yadav"	48
 912	Maharashtra Cricket Association Stadium	2	5.6	Kolkata Knight Riders	Kings XI Punjab	"MK Pandey,RV Uthappa,SA Yadav,G Gambhir"	"MG Johnson,Sandeep Sharma,Anureet Singh"	53
-913	Sardar Patel Stadium	1	5.6	Chennai Super Kings	Rajasthan Royals	"DR Smith,SK Raina,BB McCullum,F du Plessis"	"JP Faulkner,Ankit Sharma,DJ Hooda,CH Morris,PV Tambe"	39
-914	Sardar Patel Stadium	2	5.6	Rajasthan Royals	Chennai Super Kings	"SR Watson,AM Rahane"	"A Nehra,IC Pandey,MM Sharma"	47
+913	Narendra Modi Stadium	1	5.6	Chennai Super Kings	Rajasthan Royals	"DR Smith,SK Raina,BB McCullum,F du Plessis"	"JP Faulkner,Ankit Sharma,DJ Hooda,CH Morris,PV Tambe"	39
+914	Narendra Modi Stadium	2	5.6	Rajasthan Royals	Chennai Super Kings	"SR Watson,AM Rahane"	"A Nehra,IC Pandey,MM Sharma"	47
 915	M Chinnaswamy Stadium	1	5.6	Mumbai Indians	Royal Challengers Bangalore	"PA Patel,LMP Simmons,UBT Chand"	"Iqbal Abdulla,D Wiese,VR Aaron,AN Ahmed"	48
 916	Feroz Shah Kotla	1	5.6	Delhi Daredevils	Kolkata Knight Riders	"MA Agarwal,JP Duminy,MK Tiwary,SS Iyer"	"AD Russell,M Morkel,UT Yadav,SP Narine"	34
 917	Feroz Shah Kotla	2	5.7	Kolkata Knight Riders	Delhi Daredevils	"MK Pandey,RV Uthappa,SA Yadav,G Gambhir"	"DJ Muthuswami,NM Coulter-Nile,AD Mathews"	48
-918	Sardar Patel Stadium	1	5.6	Rajasthan Royals	Kings XI Punjab	"SR Watson,AM Rahane"	"MG Johnson,Sandeep Sharma,Anureet Singh"	43
-919	Sardar Patel Stadium	2	5.6	Kings XI Punjab	Rajasthan Royals	"M Vijay,V Sehwag,SE Marsh"	"PV Tambe,JP Faulkner,CH Morris,STR Binny"	40
+918	Narendra Modi Stadium	1	5.6	Rajasthan Royals	Kings XI Punjab	"SR Watson,AM Rahane"	"MG Johnson,Sandeep Sharma,Anureet Singh"	43
+919	Narendra Modi Stadium	2	5.6	Kings XI Punjab	Rajasthan Royals	"M Vijay,V Sehwag,SE Marsh"	"PV Tambe,JP Faulkner,CH Morris,STR Binny"	40
 92	Punjab Cricket Association IS Bindra Stadium	2	5.6	Kings XI Punjab	Deccan Chargers	"KC Sangakkara,SE Marsh"	"RP Singh,SB Styris,Y Venugopal Rao,DP Vijaykumar"	74
 920	Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium	1	5.6	Sunrisers Hyderabad	Kolkata Knight Riders	"S Dhawan,DA Warner"	"M Morkel,J Botha,SP Narine"	43
 921	Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium	2	5.7	Kolkata Knight Riders	Sunrisers Hyderabad	"MK Pandey,AD Russell,RV Uthappa,G Gambhir"	"KV Sharma,P Kumar,MC Henriques,B Kumar,DW Steyn"	49
@@ -1542,8 +1542,8 @@
 923	M Chinnaswamy Stadium	2	5.6	Royal Challengers Bangalore	Chennai Super Kings	"KD Karthik,MS Bisla,RR Rossouw,V Kohli"	"A Nehra,IC Pandey,MM Sharma"	38
 924	Feroz Shah Kotla	1	5.6	Delhi Daredevils	Mumbai Indians	"MA Agarwal,JP Duminy,SS Iyer"	"Harbhajan Singh,JJ Bumrah,MJ McClenaghan,SL Malinga"	45
 925	Feroz Shah Kotla	2	5.6	Mumbai Indians	Delhi Daredevils	"PA Patel,LMP Simmons,UBT Chand"	"NM Coulter-Nile,AD Mathews,JP Duminy,DJ Muthuswami"	48
-926	Sardar Patel Stadium	1	5.6	Rajasthan Royals	Royal Challengers Bangalore	"SR Watson,SPD Smith,KK Nair,AM Rahane"	"Iqbal Abdulla,MA Starc,YS Chahal,HV Patel"	48
-927	Sardar Patel Stadium	2	5.6	Royal Challengers Bangalore	Rajasthan Royals	"CH Gayle,V Kohli,AB de Villiers"	"DS Kulkarni,CH Morris,SR Watson,JP Faulkner"	49
+926	Narendra Modi Stadium	1	5.6	Rajasthan Royals	Royal Challengers Bangalore	"SR Watson,SPD Smith,KK Nair,AM Rahane"	"Iqbal Abdulla,MA Starc,YS Chahal,HV Patel"	48
+927	Narendra Modi Stadium	2	5.6	Royal Challengers Bangalore	Rajasthan Royals	"CH Gayle,V Kohli,AB de Villiers"	"DS Kulkarni,CH Morris,SR Watson,JP Faulkner"	49
 928	Eden Gardens	1	5.6	Mumbai Indians	Kolkata Knight Riders	"AJ Finch,AT Rayudu,AP Tare,RG Sharma,CJ Anderson"	"Shakib Al Hasan,M Morkel,UT Yadav"	37
 929	Eden Gardens	2	5.6	Kolkata Knight Riders	Mumbai Indians	"MK Pandey,RV Uthappa,G Gambhir"	"CJ Anderson,JJ Bumrah,R Vinay Kumar,SL Malinga"	38
 93	Feroz Shah Kotla	1	5.6	Mumbai Indians	Delhi Daredevils	"ST Jayasuriya,SR Tendulkar"	"GD McGrath,B Geeves,VY Mahesh,MF Maharoof"	60
@@ -1562,8 +1562,8 @@
 941	Wankhede Stadium	2	5.6	Mumbai Indians	Kings XI Punjab	"AJ Finch,AT Rayudu,AP Tare,RG Sharma,CJ Anderson"	"MG Johnson,Sandeep Sharma,Anureet Singh"	17
 942	M Chinnaswamy Stadium	1	5.6	Royal Challengers Bangalore	Sunrisers Hyderabad	"CH Gayle,KD Karthik,V Kohli"	"TA Boult,P Kumar,B Kumar"	47
 943	M Chinnaswamy Stadium	2	5.6	Sunrisers Hyderabad	Royal Challengers Bangalore	"S Dhawan,DA Warner"	"AN Ahmed,VR Aaron,SA Abbott,HV Patel"	65
-944	Sardar Patel Stadium	1	5.6	Mumbai Indians	Rajasthan Royals	"AJ Finch,UBT Chand,PA Patel,RG Sharma"	"DS Kulkarni,TG Southee,CH Morris,STR Binny"	31
-945	Sardar Patel Stadium	2	5.6	Rajasthan Royals	Mumbai Indians	"SPD Smith,AM Rahane,SV Samson"	"P Suyal,R Vinay Kumar,SL Malinga"	42
+944	Narendra Modi Stadium	1	5.6	Mumbai Indians	Rajasthan Royals	"AJ Finch,UBT Chand,PA Patel,RG Sharma"	"DS Kulkarni,TG Southee,CH Morris,STR Binny"	31
+945	Narendra Modi Stadium	2	5.6	Rajasthan Royals	Mumbai Indians	"SPD Smith,AM Rahane,SV Samson"	"P Suyal,R Vinay Kumar,SL Malinga"	42
 946	Maharashtra Cricket Association Stadium	1	5.6	Kings XI Punjab	Delhi Daredevils	"M Vijay,V Sehwag,WP Saha"	"NM Coulter-Nile,AD Mathews,DJ Muthuswami"	41
 947	Maharashtra Cricket Association Stadium	2	5.6	Delhi Daredevils	Kings XI Punjab	"MA Agarwal,JP Duminy,SS Iyer"	"MG Johnson,Sandeep Sharma,Anureet Singh"	47
 948	Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium	1	5.6	Sunrisers Hyderabad	Rajasthan Royals	"KL Rahul,EJG Morgan,S Dhawan,DA Warner"	"DS Kulkarni,TG Southee,CH Morris,DJ Hooda"	35
