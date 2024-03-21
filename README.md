@@ -28,16 +28,16 @@
 
 ##  Quick Links
 
-> - [ Overview](#-overview)
-> - [ Features](#-features)
-> - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
-> - [ Visualisations](#-visualisations)
-> - [ Getting Started](#-getting-started)
->   - [ Installation](#-installation)
->   - [ Running ipl_score_predictor](#-running-ipl_score_predictor)
-> - [ Project Roadmap](#-project-roadmap)
-> - [ Acknowledgments](#-acknowledgments)
+> - [ Overview](#overview)
+> - [ Features](#features)
+> - [ Repository Structure](#repository-structure)
+> - [ Modules](#modules)
+> - [ Visualisations](#visualisations)
+> - [ Getting Started](#getting-started)
+>   - [ Installation](#installation)
+>   - [ Running ipl_score_predictor](#running-ipl_score_predictor)
+> - [ Project Roadmap](#project-roadmap)
+> - [ Acknowledgments](#acknowledgments)
 
 ---
 
@@ -168,56 +168,56 @@ Here are the submitted files with Keras model
 ## Visualisations
 Here are the relevant visualisations present in `Untitled.ipynb`:
 
-<div style="background-color: #ffffff;">
+<div bgcolor="white">
 <figure>
 <img src="img/hist_inning_runs.png" alt="Innings Histograms"/>
-<figcaption><font color="black">
+<figcaption><font color="white">
 Histograms depicting player runs in 1st and 2nd innings.
 </font></figcaption>
 </figure>
 </div>
 
-<div style="background-color: #ffffff;">
+<div bgcolor="white">
 <figure>
 <img src="img/match_venue.png" alt="Matches per Venue"/>
-<figcaption><font color="black">
+<figcaption><font color="white">
 Plot of number of matches per venue.
 </font></figcaption>
 </figure>
 </div>
 
-<div style="background-color: #ffffff;">
+<div bgcolor="white">
 <figure>
 <img src="img/venue_mean_std.png" alt="Mean and STD Runs per Venue"/>
-<figcaption><font color="black">
+<figcaption><font color="white">
 Plot of mean runs and standard deviation of runs per venue.
 </font></figcaption>
 </figure>
 </div>
 
-<div style="background-color: #ffffff;">
+<div bgcolor="white">
 <figure>
 <img src="img/inn_count.png" alt="Number of Batting and Bowling Innings per team"/>
-<figcaption><font color="black">
+<figcaption><font color="white">
 Plot of number of batting and bowling innings per team.
 </font></figcaption>
 </figure>
 </div>
 
-<div style="background-color: #ffffff;">
+<div bgcolor="white">
 <figure>
 <img src="img/team_ms.png" alt="Mean and STD of Batting Team"/>
-<figcaption><font color="black">
+<figcaption><font color="white">
 Plots of mean runs and standard deviation of runs by batting teams.
 </font></figcaption>
 </figure>
 </div>
 
 
-<div style="background-color: #ffffff;">
+<div bgcolor="white">
 <figure>
 <img src="img/bteam_ms.png" alt="Mean and STD of Bowling Team"/>
-<figcaption><font color="black">
+<figcaption><font color="white">
 Plots of mean runs and standard deviation of runs by bowling teams.
 </font></figcaption>
 </figure>
